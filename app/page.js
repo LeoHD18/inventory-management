@@ -104,8 +104,8 @@ export default function Home() {
               fullWidth
               value={itemName}
               onChange={(e) => setItemName(e.target.value)}
-              inputProps={{ style: { color: 'white' } }}
-              InputLabelProps={{ style: { color: 'white' } }}
+              inputProps={{ style: { color: 'black' } }}
+              InputLabelProps={{ style: { color: 'black' } }}
             />
             <Button
               variant="contained"
